@@ -504,7 +504,17 @@
 
 							<script>
 								new SimpleLightbox({elements: '.imageGallery1 a'});
+								var $items = $('.imageGallery1 a');
 
+								$items.on('click', function(e) {
+									resourceLoader.makeSureIsLoaded('$.SimpleLightbox', function() {
+										SimpleLightbox.open({
+											$items: $items,
+											startAt: $items.index($(e.target)),
+											bindToItems: false
+										});
+									});
+								});
 							</script>
 							
 

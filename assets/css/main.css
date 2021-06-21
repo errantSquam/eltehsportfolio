@@ -7,6 +7,11 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+@font-face {
+	font-family:AlegreyaSans;
+	src: url(../webfonts/AlegreyaSans-Medium.ttf);
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -116,7 +121,7 @@ input, select, textarea {
 /* Type */
 
 	body, input, select, textarea {
-		color: #585858;
+		/* color: #585858; */
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -164,6 +169,8 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		font-family: AlegreyaSans;
+		
 	}
 
 	h1 {

@@ -2310,11 +2310,13 @@ input, select, textarea {
 
 /* Image */
 
+
 	.image {
 		border-radius: 4px;
 		border: 0;
 		display: inline-block;
 		position: relative;
+
 	}
 
 		.image img {
@@ -2639,7 +2641,7 @@ input, select, textarea {
 					background-position: center;
 					background-repeat: no-repeat;
 					background-size: 100% 100%;
-					opacity: 0.25;
+					opacity: 0.75;
 					z-index: 2;
 				}
 
@@ -2706,8 +2708,8 @@ input, select, textarea {
 						margin-bottom: 0;
 					}
 
-/*			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+			.tiles article.style1 > .image:before {
+				background-color: #cda4a4;
 			}
 
 			.tiles article.style2 > .image:before {
@@ -2719,7 +2721,7 @@ input, select, textarea {
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
+				background-color: #5f5f5f;
 			}
 
 			.tiles article.style5 > .image:before {
@@ -2728,7 +2730,7 @@ input, select, textarea {
 
 			.tiles article.style6 > .image:before {
 				background-color: #8499e7;
-			}*/
+			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.1);
@@ -2904,7 +2906,7 @@ input, select, textarea {
 
 					#header nav ul li a[href="#menu"] {
 						-webkit-tap-highlight-color: transparent;
-						width: 4em;
+						width: 2em;
 						text-indent: 4em;
 						font-size: 1em;
 						overflow: hidden;
@@ -2975,10 +2977,10 @@ input, select, textarea {
 	}
 
 	#menu {
-		-moz-transform: translateX(22em);
-		-webkit-transform: translateX(22em);
-		-ms-transform: translateX(22em);
-		transform: translateX(22em);
+		-moz-transform: translateX(15em);
+		-webkit-transform: translateX(15em);
+		-ms-transform: translateX(15em);
+		transform: translateX(15em);
 		-moz-transition: -moz-transform 0.45s ease, visibility 0.45s;
 		-webkit-transition: -webkit-transform 0.45s ease, visibility 0.45s;
 		-ms-transition: -ms-transform 0.45s ease, visibility 0.45s;
@@ -2986,7 +2988,7 @@ input, select, textarea {
 		position: fixed;
 		top: 0;
 		right: 0;
-		width: 22em;
+		width: 15em;
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;

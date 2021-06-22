@@ -7,6 +7,9 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.ignore-css{all:unset;}
+
+
 /*fonts */
 @font-face {
 	font-family:AlegreyaSans;
@@ -2653,6 +2656,24 @@ input, select, textarea {
 			.button.primary:active {
 				background-color: #ee5f81;
 			}
+				input[type="submit"].primary,
+				
+		input[type="reset"].circle,
+		input[type="button"].circle,
+		button.circle,
+		.button.circle {
+			border-radius:50%;
+			height: 2em;
+			width: 2em;
+			padding: 0 0 0 0;
+			line-height: 2em;
+			letter-spacing: revert;
+			/* text-align: center; */
+			font-size: 1em;
+			
+		}
+		
+
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
